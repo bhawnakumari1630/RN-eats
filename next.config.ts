@@ -7,8 +7,8 @@ const nextConfig: NextConfig = {
   assetPrefix: "/rn-eats/",
 
   images: {
+    unoptimized: true,
     remotePatterns: [
-      unoptimized: true, 
       {
         protocol: "https",
         hostname: "images.unsplash.com",
