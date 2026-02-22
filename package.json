@@ -2,6 +2,7 @@
   "name": "rn-commerce",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://bhawnakumari1630.github.io/RN-eats",
   "scripts": {
     "dev": "next dev",
     "clean": "rd /s /q .next && next dev --turbo",
