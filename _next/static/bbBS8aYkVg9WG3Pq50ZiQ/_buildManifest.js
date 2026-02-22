@@ -1,16 +1,16 @@
 self.__BUILD_MANIFEST = {
   "/HomePage": [
-    "static/chunks/d67ed14dc4e91563.js"
+    "static/chunks/d85a1663852f6bba.js"
   ],
   "/_error": [
-    "static/chunks/c7a2be6a672c84a0.js"
+    "static/chunks/cba53dc9cf391620.js"
   ],
   "__rewrites": {
     "afterFiles": [],
     "beforeFiles": [
       {
-        "source": "/rn-eats//_next/:path+",
-        "destination": "/rn-eats/_next/:path+"
+        "source": "/RN-eats//_next/:path+",
+        "destination": "/RN-eats/_next/:path+"
       }
     ],
     "fallback": []
