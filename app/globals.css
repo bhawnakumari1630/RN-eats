@@ -5,7 +5,6 @@
 @import "../public/css/custom_classes.css";
 @import "../public/css/styles.css";
 
-
 /* replaces darkMode: "selector" from tailwind.config.js */
 @variant dark (&:where(.dark, .dark *));
 
@@ -15,7 +14,7 @@
 @source "../components/**/*.{js,ts,jsx,tsx,mdx}";
 @source "../src/**/*.{js,ts,jsx,tsx,mdx}";
 
-@tailwind utilities;
+/* @tailwind utilities; */
 
 :root {
   --background: #ffffff;
