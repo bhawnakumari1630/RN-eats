@@ -3,8 +3,8 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   output: "export",
-  basePath: "/rn-eats", // your repo name
-  assetPrefix: "/rn-eats/",
+  basePath: "/RN-eats", // your repo name
+  assetPrefix: "/RN-eats/",
 
   images: {
     unoptimized: true,
