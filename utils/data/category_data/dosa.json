@@ -1,0 +1,222 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Restaurant",
+        "name": "The Belgian Waffle Co.",
+        "image": "https://b.zmtcdn.com/data/dish_photos/7ef/dd73f13610a03e9eafc033e75481b7ef.jpg?output-format=webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "3.9",
+          "reviewCount": "1,887"
+        },
+        "url": "/ncr/the-belgian-waffle-co-1-connaught-place-new-delhi/order?contextual_menu_params=eyJkaXNoX3NlYXJjaCI6eyJ0aXRsZSI6IkJlc3QgaW4gRGVzc2VydHMiLCJkaXNoX2lkcyI6WyIxMDAxOCJdLCJjdWlzaW5lX2lkcyI6W119fQ%3D%3D",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "",
+          "addressLocality": "",
+          "addressRegion": "",
+          "postalCode": "",
+          "streetAddress": "Shop 21, Ground Floor, Regal Building East, Connaught Place, New Delhi"
+        },
+        "servesCuisine": "Waffle, Ice Cream, Desserts"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Restaurant",
+        "name": "The Waffle Co.",
+        "image": "https://b.zmtcdn.com/data/dish_photos/961/25be58431a113f630da4f2e0bc18a961.png?output-format=webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.1",
+          "reviewCount": "839"
+        },
+        "url": "/ncr/the-waffle-co-rajendra-place-new-delhi/order?contextual_menu_params=eyJkaXNoX3NlYXJjaCI6eyJ0aXRsZSI6IkJlc3QgaW4gRGVzc2VydHMiLCJkaXNoX2lkcyI6WyIxMDAxOCJdLCJjdWlzaW5lX2lkcyI6W119fQ%3D%3D",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "",
+          "addressLocality": "",
+          "addressRegion": "",
+          "postalCode": "",
+          "streetAddress": "7/50, Shop 2, Ground Floor, Old Rajendra Nagar, Rajendra Place, New Delhi"
+        },
+        "servesCuisine": "Desserts, Waffle, Pancake"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Restaurant",
+        "name": "Snowberry Artisanal Desserts",
+        "image": "https://b.zmtcdn.com/data/pictures/9/20943149/9d8e601dab2074fe332b92553a39e960_o2_featured_v2.jpg?output-format=webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "3.7",
+          "reviewCount": "755"
+        },
+        "url": "/ncr/snowberry-artisanal-desserts-connaught-place-new-delhi/order?contextual_menu_params=eyJkaXNoX3NlYXJjaCI6eyJ0aXRsZSI6IkJlc3QgaW4gRGVzc2VydHMiLCJkaXNoX2lkcyI6WyIxMDAxOCJdLCJjdWlzaW5lX2lkcyI6W119fQ%3D%3D",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "",
+          "addressLocality": "",
+          "addressRegion": "",
+          "postalCode": "",
+          "streetAddress": "72, Municipal Market, Connaught Place, New Delhi"
+        },
+        "servesCuisine": "Ice Cream, Desserts, Shake"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Restaurant",
+        "name": "High On Desserts",
+        "image": "https://b.zmtcdn.com/data/dish_photos/6b6/0f0bf93279ffac4e22f9ae74644a06b6.jpg?output-format=webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.4",
+          "reviewCount": "5,488"
+        },
+        "url": "/ncr/high-on-desserts-rajinder-nagar-new-delhi/order?contextual_menu_params=eyJkaXNoX3NlYXJjaCI6eyJ0aXRsZSI6IkJlc3QgaW4gRGVzc2VydHMiLCJkaXNoX2lkcyI6WyIxMDAxOCJdLCJjdWlzaW5lX2lkcyI6W119fQ%3D%3D",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "",
+          "addressLocality": "",
+          "addressRegion": "",
+          "postalCode": "",
+          "streetAddress": "1/122, Shankar Road, Rajinder Nagar, New Delhi"
+        },
+        "servesCuisine": "Cafe, Pancake, Waffle"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Restaurant",
+        "name": "Cruffin Premium - Cakes And Desserts",
+        "image": "https://b.zmtcdn.com/data/pictures/0/21586450/04fb3e23f1281e4b8bf430c4955f84c1_o2_featured_v2.jpg?output-format=webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.4",
+          "reviewCount": "3,025"
+        },
+        "url": "/ncr/cruffin-premium-cakes-and-desserts-karol-bagh-new-delhi/order?contextual_menu_params=eyJkaXNoX3NlYXJjaCI6eyJ0aXRsZSI6IkJlc3QgaW4gRGVzc2VydHMiLCJkaXNoX2lkcyI6WyIxMDAxOCJdLCJjdWlzaW5lX2lkcyI6W119fQ%3D%3D",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "",
+          "addressLocality": "",
+          "addressRegion": "",
+          "postalCode": "",
+          "streetAddress": "4E/11, Basement, Jhandewalan Extension, Karol Bagh, New Delhi"
+        },
+        "servesCuisine": "Bakery"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Restaurant",
+        "name": "Rajveer Chaat Bhandar",
+        "image": "https://b.zmtcdn.com/data/pictures/5/19921905/fbd0563aed9e3301b49fc1a7ef0f6a5b_o2_featured_v2.jpg?output-format=webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.0",
+          "reviewCount": "68"
+        },
+        "url": "/ncr/rajveer-chaat-bhandar-west-patel-nagar-new-delhi/order?contextual_menu_params=eyJkaXNoX3NlYXJjaCI6eyJ0aXRsZSI6IkJlc3QgaW4gRGVzc2VydHMiLCJkaXNoX2lkcyI6WyIxMDAxOCJdLCJjdWlzaW5lX2lkcyI6W119fQ%3D%3D",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "",
+          "addressLocality": "",
+          "addressRegion": "",
+          "postalCode": "",
+          "streetAddress": "Nai Basti, Anand Parbat, West Patel Nagar, New Delhi"
+        },
+        "servesCuisine": "Fast Food, Sandwich, Street Food"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "Restaurant",
+        "name": "Rom's Pizza",
+        "image": "https://b.zmtcdn.com/data/dish_photos/048/679d851e2acca7f53595ccf9c9de0048.jpeg?output-format=webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "3.8",
+          "reviewCount": "17.9K"
+        },
+        "url": "/ncr/roms-pizza-shakarpur-new-delhi/order?contextual_menu_params=eyJkaXNoX3NlYXJjaCI6eyJ0aXRsZSI6IkJlc3QgaW4gRGVzc2VydHMiLCJkaXNoX2lkcyI6WyIxMDAxOCJdLCJjdWlzaW5lX2lkcyI6W119fQ%3D%3D",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "",
+          "addressLocality": "",
+          "addressRegion": "",
+          "postalCode": "",
+          "streetAddress": "U-112-B, Ground Floor, Upadhyay Block, Shakarpur, New Delhi"
+        },
+        "servesCuisine": "Pizza, Burger, Fast Food"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "Restaurant",
+        "name": "Grameen Kulfi",
+        "image": "https://b.zmtcdn.com/data/pictures/1/20505771/3581ee609b871553b97a15916534de2e_o2_featured_v2.jpg?output-format=webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.4",
+          "reviewCount": "980"
+        },
+        "url": "/ncr/grameen-kulfi-karol-bagh-new-delhi/order?contextual_menu_params=eyJkaXNoX3NlYXJjaCI6eyJ0aXRsZSI6IkJlc3QgaW4gRGVzc2VydHMiLCJkaXNoX2lkcyI6WyIxMDAxOCJdLCJjdWlzaW5lX2lkcyI6W119fQ%3D%3D",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "",
+          "addressLocality": "",
+          "addressRegion": "",
+          "postalCode": "",
+          "streetAddress": "Shop 12, Gali 30, Beadonpura, Karol Bagh, New Delhi"
+        },
+        "servesCuisine": "Ice Cream, Desserts"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "Restaurant",
+        "name": "Love Pooriwala",
+        "image": "https://b.zmtcdn.com/data/dish_photos/aea/6f20a9659d2fd19e1036f9763ed25aea.jpg?output-format=webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.1",
+          "reviewCount": "4,008"
+        },
+        "url": "/ncr/love-pooriwala-kamla-nagar-new-delhi/order?contextual_menu_params=eyJkaXNoX3NlYXJjaCI6eyJ0aXRsZSI6IkJlc3QgaW4gRGVzc2VydHMiLCJkaXNoX2lkcyI6WyIxMDAxOCJdLCJjdWlzaW5lX2lkcyI6W119fQ%3D%3D",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "",
+          "addressLocality": "",
+          "addressRegion": "",
+          "postalCode": "",
+          "streetAddress": "3536-3537, Main Bazaar, Subzi Mandi, Kamla Nagar, New Delhi"
+        },
+        "servesCuisine": "Street Food, Chinese, Mithai"
+      }
+    }
+  ]
+}

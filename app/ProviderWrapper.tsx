@@ -7,7 +7,13 @@ import { Provider } from "react-redux";
 const ProviderWrapper = ({ children }: { children: React.ReactNode }) => {
   return (
     <Provider store={store}>
-      <ThemeProvider attribute={"class"}>{children}</ThemeProvider>
+      <ThemeProvider
+        defaultTheme="light"
+        enableSystem={false}
+        attribute={"class"}
+      >
+        {children}
+      </ThemeProvider>
     </Provider>
   );
 };

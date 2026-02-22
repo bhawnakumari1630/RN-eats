@@ -9,6 +9,9 @@ export const ThemeSwitch = () => {
   useEffect(() => setMounted(true), []);
 
   if (!mounted) return null;
+  useEffect(() => {
+    setTheme("light");
+  }, []);
   return (
     <>
       <select

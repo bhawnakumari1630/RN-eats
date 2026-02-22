@@ -1,0 +1,154 @@
+@import "./custom_classes.css";
+
+/* ====== CSS ====== */
+/* 
+1. Global/constant
+2. Header / Navbar
+3. Search bar
+4. Benefit section
+5. Benefit cards
+6. Category section
+7. Popular Cards section 
+8. Banner section
+*/
+/* ====== CSS ====== */
+
+/* =========>>> Global/constant <<<========= */
+.container {
+  @apply w-full max-w-[78%] mx-auto;
+}
+.section-heading {
+  @apply text-3xl font-bold;
+}
+/* ----------- Header / Navbar ----------- */
+.header > nav {
+  @apply flex items-center justify-between gap-5 py-5 px-[3%] border-b border-gray-50 shadow-sm shadow-gray-100;
+}
+
+.header .nav-item {
+  @apply flex items-center justify-between gap-5;
+}
+
+.header .nav-list {
+  @apply flex items-center gap-4;
+}
+
+.header .nav-button > .btn {
+  @apply px-2 py-1 rounded-sm;
+}
+
+.header .nav-button > .btn-signup {
+  @apply border border-gray-700;
+}
+
+.arrow-btn {
+  @apply h-10 w-10 rounded-full flex items-center justify-center bg-black/50 opacity-60 disabled:opacity-40 not-disabled:hover:opacity-100 text-white backdrop-blur-sm transition-all duration-200 not-disabled:cursor-pointer;
+}
+
+/* ----------- Searchbar ----------- */
+.searchbar {
+  border-color: var(--border-light);
+  @apply w-full grid grid-cols-[43%_1fr] max-w-2xl bg-white border rounded-[10px] py-3.5 items-center;
+}
+.searchbar > .search-field {
+  @apply items-center pe-0;
+}
+.searchbar .left-bar {
+  @apply border-e-2 border-[var(--border-light)];
+}
+.searchbar .search-field > label {
+  @apply flex-1 flex items-center gap-2 px-2;
+}
+.searchbar .search-field label input {
+  @apply flex-1 text-gray-700/90;
+}
+.searchbar .left-bar svg.left-icon {
+  @apply text-[var(--tertiary-color)];
+}
+.searchbar .right-bar svg.left-icon {
+  @apply text-[var(--text-muted-light)];
+}
+
+/* ----------- hero section ----------- */
+.hero-section {
+  background-color: #fff9f9;
+  @apply flex justify-center relative px-4 pt-20 pb-12 w-full mx-auto;
+}
+.hero-section .left-image {
+  @apply absolute left-0 z-0 h-full w-full flex items-start justify-start;
+}
+.hero-section .right-image {
+  @apply absolute right-0 z-0 h-full w-full flex items-start justify-end;
+}
+.left-image > img,
+.right-image > img {
+  @apply h-[90%] max-h-100;
+}
+
+/* ----------- Benefit cards ----------- */
+.benefit-section .cards-container {
+  @apply w-full h-full z-2 flex items-center mx-auto lg:max-w-full xl:max-w-[80%] max-h-[65%];
+}
+.benefit-card {
+  @apply px-4 w-full h-full max-h-67 flex items-end;
+}
+.benefit-card > div {
+  @apply w-full h-full ps-6 pt-6 rounded-4xl bg-white shadow-sm shadow-gray-300 overflow-hidden flex flex-col justify-between;
+}
+.benefit-card .tag {
+  @apply inline-block mt-2 px-2.5 py-1 text-sm rounded-md text-(--primary-color) bg-[var(--primary-color)]/9;
+}
+.benefit-card .image-container {
+  min-height: 130;
+  min-width: 125px;
+  @apply relative rounded-tl-4xl overflow-hidden h-[55%] w-[55%];
+}
+.image-container > img {
+  object-fit: cover;
+  position: absolute;
+  @apply inset-x-0 h-full w-full;
+}
+
+/* ----------- Popular-Card section ----------- */
+.popular-card {
+  filter: drop-shadow(rgba(27, 30, 36, 0.08) 0px 0px 7.905px);
+  border: 1px solid rgba(2, 6, 12, 0.08);
+  @apply w-[326px] h-max rounded-[18px] overflow-hidden bg-white; /*w-82*/
+}
+.popular-card .top-area > .overlay {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.75) 10%,
+    rgba(0, 0, 0, 0.2) 40%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  @apply absolute h-full w-full inset-0 z-0;
+}
+.popular-card .top-area {
+  /* background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/DINEOUT_ALL_RESTAURANTS/IMAGES/RESTAURANT_IMAGE_SERVICE/2025/12/11/7293a378-a88e-48cf-b451-da8d3ad31cb0_image2756e6ced814cb42a387a7ed400dfc19d9.JPG"); */
+  @apply w-full h-48 max-h-48 min-h-48 overflow-hidden bg-cover bg-no-repeat flex items-end;
+}
+.popular-card .bottom-area {
+  @apply pt-2.5 p-3.5 font-medium text-[13px] text-[rgba(2,6,12,60%)];
+}
+.bottom-area .prop-flex {
+  @apply flex items-center justify-between mt-0.5 leading-5;
+}
+.bottom-area .major-div {
+  @apply bg-[#1ba672] text-white text-sm py-2.25 px-3 rounded-lg;
+}
+.bottom-area .minor-div {
+  @apply bg-[#c8f9e5] text-[#1ba672] text-sm py-2.25 px-3 rounded-lg mt-2.5;
+}
+
+/* ------- Banner Section -------- */
+.banner-section {
+  background-image: url("https://b.zmtcdn.com/data/collections/1387d3a2b802ac705c75ec7a1be379df_1709810184.png?fit=around|858.4000000000001:256&crop=858.4000000000001:256;*,*");
+  @apply w-full rounded-md;
+}
+.banner-section > div {
+  @apply pb-5 pt-40 w-full text-white flex items-end;
+}
+.banner-section .content {
+  @apply max-w-[550px] p-5 bg-zinc-900/80 backdrop-blur-[3px] rounded-lg;
+}

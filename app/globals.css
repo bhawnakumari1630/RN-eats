@@ -1,11 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 @import "tailwindcss";
-@import "../styles/custom_classes.css";
+@import "../public/css/custom_classes.css";
+@import "../public/css/styles.css";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --primaryColor: #ea6bbc;
-  --secondaryColor: #b22d64;
 }
 
 @theme inline {
@@ -13,4 +15,74 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+}
+
+:root {
+  /* --- BRAND PRIMARY --- */
+  --primary-color: #ef4f5f; /* Watermelon Red */
+  --primary-dark: #d63e4d; /* For Hover states */
+  --primary-light: #fce7e9; /* For light button backgrounds or tags */
+  --primary-glow: rgba(239, 79, 95, 0.15);
+
+  /* --- NEUTRALS (Text & UI) --- */
+  --text-main: #2d3436; /* Deep Slate (Better than pure black) */
+  --text-muted: #636e72; /* For descriptions and secondary text */
+  --white: #ffffff;
+  --text-clr-light: #828282;
+  --border-light: #e8e8e8;
+
+  /* --- BACKGROUNDS (The Hero Secret) --- */
+  --bg-hero: #fff9f9; /* Softest blush tint */
+  --bg-subtle: #f8f9fa; /* Light grey for section alternating */
+
+  /* --- ACCENTS --- */
+  --success-green: #00b894; /* For 'Vegan' or 'In Stock' badges */
+  --rating-yellow: #facd12; /* For star ratings */
+}
+
+/* :root {
+  --secondary-gray: #99a1af;
+  --primary-color: #ef4f5f;
+  --tertiary-color: rgb(255, 128, 140);
+
+} */
+
+@layer base {
+  * {
+    @apply m-0 p-0 box-border;
+  }
+  html {
+    color-scheme: light !important;
+    @apply scroll-smooth;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+html {
+  color-scheme: light !important;
+}
+
+body {
+  font-family: "Inter", "Roboto", sans-serif;
+  /* font-weight: 400; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: white;
+}
+
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+input {
+  @apply border-0 outline-0;
+}
+input::placeholder {
+  @apply text-[var(--secondary-gray)];
 }
