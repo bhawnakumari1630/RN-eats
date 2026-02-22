@@ -1,0 +1,7 @@
+.bg-primary {
+    @apply bg-(--secondaryColor)/90
+}
+
+.btn-primary {
+    @apply bg-(--secondaryColor)/90 text-white rounded-md text-center;
+}
