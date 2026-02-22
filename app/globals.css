@@ -5,6 +5,16 @@
 @import "../public/css/custom_classes.css";
 @import "../public/css/styles.css";
 
+
+/* replaces darkMode: "selector" from tailwind.config.js */
+@variant dark (&:where(.dark, .dark *));
+
+/* replaces content: [...] from tailwind.config.js */
+@source "../app/**/*.{js,ts,jsx,tsx,mdx}";
+@source "../pages/**/*.{js,ts,jsx,tsx,mdx}";
+@source "../components/**/*.{js,ts,jsx,tsx,mdx}";
+@source "../src/**/*.{js,ts,jsx,tsx,mdx}";
+
 @tailwind utilities;
 
 :root {
