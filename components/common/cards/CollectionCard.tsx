@@ -27,7 +27,7 @@ const ChevronRightIcon = () => (
 export const CollectionCard: React.FC<{ collection: any }> = ({
   collection,
 }) => {
-  console.log(collection);
+  // console.log(collection);
 
   const { name, mediaFiles, cuisines } = collection?.info;
   const image = IMAGE_BASE_URL + mediaFiles[0]?.url;

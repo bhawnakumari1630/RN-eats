@@ -54,7 +54,7 @@ const InputSides: React.FC<InputSidesProps> = ({
 };
 
 const Searchbar = () => {
-  const { setLocationData, currentAddress } = UserGeolocation();
+  const { currentAddress } = UserGeolocation();
   const [searchQuery, setSearchQuery] = useState("");
 
   const rightPlaceholder =

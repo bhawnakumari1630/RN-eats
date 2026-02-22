@@ -26,8 +26,6 @@ const TabContainer = () => {
     fetchParentData();
   }, []);
 
-  console.log("parent");
-
   if (loading) {
     return <div>Loading parent data...</div>;
   }
@@ -105,7 +103,7 @@ const Tab1Component: React.FC<props> = memo(({ payload }) => {
     fetchTab1Data();
   }, [payload.userId]);
 
-  console.log("child1");
+  // console.log("child1");
 
   if (data.loading) return <div>Loading Tab 1 data...</div>;
 
@@ -146,7 +144,7 @@ const Tab2Component: React.FC<props> = memo(({ payload }) => {
     fetchTab2Data();
   }, [payload.userId]);
 
-  console.log("child2", data);
+  // console.log("child2", data);
 
   if (data.loading) return <div>Loading Tab 2 data...</div>;
 
@@ -185,7 +183,7 @@ const Tab3Component: React.FC<props> = memo(({ payload }) => {
     fetchTab3Data();
   }, [payload.userId]);
 
-  console.log("child3", data);
+  // console.log("child3", data);
 
   if (data.loading) return <div>Loading Tab 3 data...</div>;
 

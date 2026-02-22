@@ -2,6 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
+  output: "export",
+  basePath: "/rn-eats", // your repo name
+  assetPrefix: "/rn-eats/",
 
   images: {
     remotePatterns: [
